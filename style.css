@@ -8,19 +8,124 @@
     width: 1080px;
     margin: auto;
     height: 100%;
-    background-color: black;
+}
+
+.clearfix {
+    content: '';
+    clear: both;
+    display: table;
+}
+
+.left-blocks {
+    width: 40%;
+    height: 100%;
+    float: left;
+    font-size: 18px;
+    padding: 5px;
+    padding-left: 0;
+}
+
+.left-blocks:first-child {
+    border-right: 4px groove grey;
+}
+
+.left-blocks:last-child {
+    padding-left: 20px;
+}
+
+.fas .fa-globe {
+    font-size: 20px;
+}
+
+.right-blocks {
+    height: 100%;
+    float: right;
+    font-size: 18px;
+    text-align: right;
+}
+
+.right-blocks:last-child {
+    padding: 20px;
+}
+
+.fa-search {
+    color: grey;
 }
 
 #header-top {
-    height: 120px;
-    background-color: grey;
-    border: 1px solid white;
+    height: 100px;
+    width: 100%;
+    border-bottom:  0.5px solid grey;
+    padding: 20px;
+    background-color: whitesmoke;
+    position: fixed;
+    top: 0;
 }
 
+#header-top-left {
+    width: 30%;
+    height: 100%;
+    float: left;
+    padding: 10px;
+    padding-left: 0;
+}
+
+#header-top-right {
+    width: 45%;
+    height: 100%;
+    float: right;
+}
+
+#button1 {
+    background-color: #ff7a59;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border: 1px solid #ff7a59;
+    border-radius: 3%;
+}
+
+#button2 {
+    background-color: white;
+    border: none;
+    color: #ff7a59;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border: 1px solid #ff7a59;
+    border-radius: 3%;
+
+}
+
+
 #header-bottom {
-    height: 120px;
+    height: 100px;
     background-color: red;
-    border: 1px solid white;
+    margin-top: 100px;
+}
+
+#header-bottom-left {
+    width: 30%;
+    height: 100%;
+    float: left;
+    background-color: orange;
+}
+
+#header-bottom-right {
+    width: 60%;
+    height: 100%;
+    float: right;
+    background-color: orange;
 }
 
 #features {
