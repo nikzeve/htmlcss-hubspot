@@ -110,7 +110,6 @@
 
 #header-bottom {
     height: 100px;
-    background-color: red;
     margin-top: 100px;
 }
 
@@ -118,14 +117,41 @@
     width: 30%;
     height: 100%;
     float: left;
-    background-color: orange;
+    padding: 35px;
+    padding-left: 0;
 }
 
 #header-bottom-right {
-    width: 60%;
+    width: 70%;
     height: 100%;
     float: right;
-    background-color: orange;
+    padding: 20px;
+    padding-right: 0;
+
+}
+
+#menu, #menu li {
+    display: inline-block;
+    text-align: center;
+}
+
+#menu li p {
+    height: 60px;
+    line-height: 60px;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    padding: 0 10px;
+    margin-left: 42px;
+}
+
+li:first-child {
+    margin-left: 88px;
+}
+
+li:last-child {
+    padding-right: 0;
 }
 
 #features {
