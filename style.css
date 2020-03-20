@@ -154,10 +154,30 @@ li:last-child {
     padding-right: 0;
 }
 
-#features {
-    background-color: lightcoral;
-    height: 500px;
+#features1 {
+    background-color: #F8E6E0;
     border: 1px solid white;
+}
+
+#block1 {
+    height: 100%;
+    width: 40%;
+    margin-top: 100px;
+    margin-bottom: 300px;
+}
+
+#block1 h1 {
+    font-size: 55px;
+}
+
+#block1 p:first-of-type{
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#block1 p:last-of-type {
+    margin-top: 30px;
 }
 
 footer {
