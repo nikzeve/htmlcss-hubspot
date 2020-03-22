@@ -183,64 +183,140 @@ li:last-child {
     height: 870px;
     background-color: whitesmoke;
     padding-bottom: 76px;
+    padding-top: 76px;
 }
 
-#row-1 {
+#features2 h3 {
+    font-size: 25px;
+}
+
+#features2 h4 {
+    margin-top: 30px;
+}
+
+.text {
+    font-size: 18px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.row-1 {
     height: 35%;
     width: 100%;
-    background-color: red;
     margin-top: 2.5%;
 }
 .blocks-row-1 {
     height: 100%;
-    background-color: blue;
     width: 32%;
     float:left;
     margin-right: 2%;
     padding-right: 2%;
 }
-#row-1 :first-child h2 {
+.row-1 :first-child h2 {
     font-size: 35px;
     margin-bottom: 30px;
 }
 
-#row-1 :first-child p {
+.row-1 :first-child p {
     font-size: 20px;
     width: 100%;
+    background-color: whitesmoke;
 }
 
+#img {
+   height: 25px;
+   width: 25px;
+   margin-right: 10px;
+   vertical-align: middle;
+}
 
-
-#row-1 :last-child {
+.row-1 :last-child {
     width: 66%;
     margin-right: 0;
     padding-right: 0;
+    padding-left: 0;
+    padding-top: 5%;
+    padding-bottom: 0;
+    background-color: white;
+
 }
 
- #img {
-    height: 30px;
-    width: 30px;
+.img-2 {
     vertical-align: middle;
 }
 
 .row-2 {
     height: 60%;
     width: 100%;
-    background-color: yellow;
     margin-top: 2.5%;
     margin-bottom: 2.5%;
 }
 
 .blocks-row-2 {
     height: 98.5%;
-    background-color: green;
+    background-color: white;
     width: 32%;
     float: left;
     margin-right: 2%;
+    padding-top: 4%;
+    padding-left: 3%;
+    padding-right: 3%;
 }
 
 .row-2 :last-child {
     margin-right: 0;
+}
+
+#features3 {
+    height: 668px;
+    width: 100%:auto;
+}
+
+.row-3 {
+    height: 40%;
+    width: 100%;
+    background-color: red;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+
+#block-row-3 {
+    height: 100%;
+    width: 60%;
+    margin: auto;
+    background-color: blue;
+}
+
+.row-4 {
+    height: 60%;
+    width: 100%;
+    background-color: yellow;
+}
+
+.row-4-1 {
+    height: 50%;
+    width: 100%;
+}
+
+.row-4-2 {
+    height: 50%;
+    width: 100%;
+}
+
+.blocks-row-4 {
+    height: 100%;
+    width: 25%;
+    background-color: green;
+    float:left;
+}
+
+.border-r {
+    border-right: 1px solid white;
+}
+
+.border-b {
+    border-bottom: 1px solid white;
 }
 
 
